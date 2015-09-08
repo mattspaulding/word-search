@@ -86,7 +86,7 @@ int main() {
 						// (nextx, nexty) represents the adjacent location in
 						// direction k.
 
-							// Check boundries
+						// Check boundries
 						if (nextX > -1 && nextY>-1 && nextX < x&&nextY < y)
 						{
 							possibleWord[m] = grid[nextX][nextY];
